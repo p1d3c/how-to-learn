@@ -334,3 +334,88 @@
   у меня треугольник располагается
   не как в брифе */
 }
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__columns {
+  border: 1px solid red;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(/images/logo_place_footer.svg);
+  height: 35px;
+}
+
+.footer__author {
+  margin: 18px 0;
+}
+
+.footer__author_text {
+  margin: 0;
+  padding: 0;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  border: 1px solid blue;
+}
+
+.footer__column-heading {
+
+}
+
+.footer__column-heading_text {
+  margin: 0;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__list {
+  list-style-type: none;
+  margin: 20px 0 16px 0;
+  padding: 5px;
+}
+
+.footer__column_content_social {
+  border: 1px solid pink;
+}
+
+.footer__column-link {
+ color: white;
+ text-decoration: none;
+ line-height: 30px;
+ font-size: 18px;
+ font-weight: normal;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+li {
+  border: 1px solid red;
+}
