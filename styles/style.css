@@ -343,7 +343,6 @@
 }
 
 .footer__columns {
-  border: 1px solid red;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -353,7 +352,6 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -377,14 +375,6 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {
-  border: 1px solid blue;
-}
-
-.footer__column-heading {
-
-}
-
 .footer__column-heading_text {
   margin: 0;
   color: white;
@@ -399,10 +389,6 @@
   padding: 5px;
 }
 
-.footer__column_content_social {
-  border: 1px solid pink;
-}
-
 .footer__column-link {
  color: white;
  text-decoration: none;
@@ -414,8 +400,4 @@
 .footer__social-icon {
   padding-right: 10px;
   vertical-align: middle;
-}
-
-li {
-  border: 1px solid red;
 }
