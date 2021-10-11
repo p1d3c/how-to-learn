@@ -19,11 +19,11 @@
   z-index: -1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
   height: 568px;
   width: 568px;
-}
+} */
 
 .logo {
   width: 183px;
@@ -116,6 +116,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -134,10 +135,6 @@
 
 .two-columns__main-text_paragraph:last-of-type {
   margin-bottom: 0;
-}
-
-.two-columns__brief_text {
-  margin: 0;
 }
 
 .two-columns_text_size {
