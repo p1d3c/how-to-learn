@@ -16,7 +16,6 @@
   /* выше установили ограничения для секции */
   display: flex;
   background-color: #f2f2f2;
-  z-index: -1;
   position: relative;
 }
 
@@ -59,7 +58,7 @@
   width: 388px;
   bottom: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .subtitle_text {
